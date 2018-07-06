@@ -1,0 +1,6 @@
+alias: desktop
+mac: 40:8D:5C:90:FA:03
+alias: ubuntu_lap
+mac: BC:EE:7B:20:E4:B9
+alias: moms
+mac: 2C:FD:A1:5A:16:E0
