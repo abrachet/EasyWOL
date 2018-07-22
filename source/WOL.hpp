@@ -73,11 +73,6 @@ void testSuccess(int a)
 #endif
 
 
-/**
- * Will notify if syscall failed, will notify int returned by syscall
- * on success
- */ 
-
 
 
 /**
@@ -87,14 +82,6 @@ void testSuccess(int a)
  * sudo dtruss ./ifconfig
  * 
  */ 
-
-/**
- * 
- * 
- * 
- * 
- */ 
-
 
 /**
  * @brief used for Hexadecimal to uint conversion
@@ -143,10 +130,5 @@ uint8_t* createMAC(const char*);
  */
 uint8_t* createPacket(const uint8_t*);
 
-/**
- * 
- * 
- * 
- * 
- */ 
+
 void sendPacket(const char* macAddr);

@@ -1,9 +1,8 @@
 #ifndef VERSION3
+#define VERSION3
 
-    #define VERSION3
-    //#include "WOL.hpp"
 
-#endif
+
 
 
 typedef std::function<bool(const std::string&)> funct;
@@ -110,3 +109,4 @@ class Entry {
                 writeFile << _vector[i];
         }
 };
+#endif /* VERSION3 */

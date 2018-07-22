@@ -1,9 +1,8 @@
 #ifndef CONFIG_FILE_PARSER
-
-    #define CONFIG_FILE_PARSER
-    #include "WOL.hpp"
-
-#endif
+#define CONFIG_FILE_PARSER
+    
+    
+#include "WOL.hpp"
 
 #define WRITEFILE "easyWOL-config.txt"
 
@@ -173,7 +172,7 @@ namespace Templ {
     Template templ = myTemplate();
 
 }
-
+#endif /* CONFIG_FILE_PARSER */
 /*
 int main()
 {

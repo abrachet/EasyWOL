@@ -1,9 +1,8 @@
 #ifndef WOL
+#define WOL
 
-    #define WOL
-    //#include "WOL.hpp"
 
-#endif
+
 
 uint8_t charToUint(const char c) 
 {
@@ -51,9 +50,6 @@ uint8_t* createPacket(const uint8_t* mac)
     for (int i = 0; i < 6; i++)
         magicPacket[i] = 0xFF;
 
-    //for (int i = 6; i < 102; i+=6)
-    //    for (int j = 0; j < 6; j++)
-    //        magicPacket[i + j] = mac[j];
     for (int i = 1; i < 17; i++)
         memcpy(&magicPacket[i * 6], mac, 6);
     
@@ -98,3 +94,4 @@ void sendPacket(const char* macAddr)
 
     printf("Sent WOL packet\n");
 }
+#endif /* WOL */
