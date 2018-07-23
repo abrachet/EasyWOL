@@ -146,10 +146,7 @@ namespace Templ {
     //used when something is required but no checks on what exactly
     bool looseRequire(std::string str) 
     {
-        if (str.length() > 0)
-            return true;
-        
-        return false;
+        return str.length() > 0;
     }
 
 
