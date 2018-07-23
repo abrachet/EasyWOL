@@ -1,9 +1,10 @@
 #ifndef VERSION3
 #define VERSION3
 
-
-
-
+#include <iostream>
+#include <map>
+#include <vector>
+#include <fstream>
 
 typedef std::function<bool(const std::string&)> funct;
 typedef std::map<std::string, funct> templateMap; 
